@@ -1,0 +1,17 @@
+{
+    "name": "webgl-crashcourse",
+    "version": "1.0.0",
+    "description": "WebGL Crash Course",
+    "author": "Raghu Gannaram",
+    "license": "ISC",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html"
+    },
+    "dependencies": {
+        "parcel": "^2.13.3"
+    },
+    "devDependencies": {
+        "@parcel/transformer-glsl": "^2.13.3"
+    }
+}
